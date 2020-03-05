@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width:  50%;}
+.col-7{width: 58%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 93.66%;}
+.col-12{width:  100%;}
+
+[class*="col-"]{
+    float: left;
+
+}
+
+.p-1{
+    padding: 1em;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*div{
+    border: 1px solid red;
+}*/
+
+.border{
+    border: 1px solid;
+}
+
+
+                                /*ejercicio classe pagina web de curiculum*/
+
+.border{
+    border: 1px solid black;
+}
+ .text-center{
+     text-align: center;
+ }
+
+ /*clase alto*/
+ .h-600{
+     height: 600px;
+ }
+
+ html{
+     background-color: #00000014
+     ;
+ }
+
+ .m-1{
+margin: 1em;    
+ }
+ .black-white{
+     background-color: white;
+ }
+ .p-1{
+     padding: 1em;
+ }
+
+ .teal{
+     background-color: teal;
+ }
+
+ .text-white{
+     color: white;
+ }
+
+ /*secion de foto*/
+ #foto{
+     background-image: url(https://picsum.photos/seed/picsum/420/250);
+     height: 10em;
+     align-items: flex-end;
+}
+.flex{
+    display: flex;
+}
+pb-1{
+    padding: 1em;
+}
+
+#foto div{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.bb{
+ border-bottom: black;
+}
+.mx{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.skill-box{
+background-color: lightgrey;
+}
+.b-rad{
+    border-radius: 10px;
+}
+
+.leng-box{
+    height:1em ;
+}
+
+.pres-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-title{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+.text
+
+.current{
+    padding:0 0.5em;
+}
